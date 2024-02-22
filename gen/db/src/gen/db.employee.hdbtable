@@ -1,0 +1,7 @@
+COLUMN TABLE db_employee (
+  id NVARCHAR(5000) NOT NULL,
+  employee_name NVARCHAR(5000),
+  employee_salary NVARCHAR(5000),
+  employee_age NVARCHAR(5000),
+  PRIMARY KEY(id)
+)

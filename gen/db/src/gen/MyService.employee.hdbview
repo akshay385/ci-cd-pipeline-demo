@@ -1,0 +1,6 @@
+VIEW MyService_employee AS SELECT
+  employee_0.id,
+  employee_0.employee_name,
+  employee_0.employee_salary,
+  employee_0.employee_age
+FROM db_employee AS employee_0
